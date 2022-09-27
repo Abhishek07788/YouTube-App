@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek | YouTube</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="youtubeLogo.png">
+  </head>
+  <body>
+    <div id="navbar">
+      <img id="logo" src="https://i.postimg.cc/hjxZsW2t/Screenshot-2022-07-05-234317.png" alt="">
+      <input id="input" type="search" placeholder="Search" />
+      <img onclick="button()" id="searchicon" src="https://i.postimg.cc/1t6w29xb/Screenshot-2022-07-05-234115.png" alt="">
+      <img id="mic" src="https://i.postimg.cc/BnSWv6Mc/Screenshot-2022-07-05-234247.png" alt="">
+      <img id="camera" src="https://i.postimg.cc/k403MvpB/Screenshot-2022-07-05-234228.png" alt="">
+      <p onclick="show()" id="filter">Filter</p>
+      <img id="notification" src="https://i.postimg.cc/MpxPYFBW/Screenshot-2022-07-05-233918.png" alt="">
+      <img id="personIcon" src="https://i.postimg.cc/9F4XfC0J/Screenshot-2022-07-06-132628.png" alt="">
+    </div>
+    <div id="fltr">
+      <p onclick="all()">All</p>
+      <p onclick="latest()">Latest First</p>
+      <p onclick="oldest()">Oldest First</p>
+      <p onclick="ascending()">A-Z</p>
+      <p onclick="descending()">Z-A</p>
+    </div>
+    <div id="leftSide">
+      <img id="line" src="https://i.postimg.cc/m2ZVzHWD/Screenshot-2022-07-05-234342.png" alt="">
+      <img src="https://i.postimg.cc/zvmtcnpN/Screenshot-2022-07-06-013201.png" alt="">
+      <img src="https://i.postimg.cc/cL1D217v/Screenshot-2022-07-06-013226.png" alt="">
+      <img src="https://i.postimg.cc/YCS38nkg/Screenshot-2022-07-06-013307.png" alt="">
+      <img src="https://i.postimg.cc/vB5LDCLR/Screenshot-2022-07-06-013327.png" alt="">
+      <img src="https://i.postimg.cc/C1CkwkSS/Screenshot-2022-07-06-013352.png" alt="">
+    </div>
+    <div onclick="hide()" id="searchTagline">
+      <p id="P" onclick="button()" style="margin-left:10px;">All</p>
+      <p id="P" onclick="button()">Music</p>
+      <p id="P" onclick="button()">Mixes</p>
+      <p id="P" onclick="button()">Gaming</p>
+      <p id="P" onclick="button()">Lo-fi</p>
+      <p id="P" onclick="button()">Live</p>
+      <p id="P" onclick="button()">Comedy</p>
+      <p id="P" onclick="button()">Smartphone</p>
+      <p id="P" onclick="button()">T-Series</p>
+      <p id="P" onclick="button()">TED</p>
+      <p id="P" onclick="button()">Lecture</p>
+      <p id="P" onclick="button()">Debates</p>
+      <p id="P" onclick="button()">C++</p>
+      <p id="P" onclick="button()" style="margin-right:10px;">Bhajan</p>
+    </div>
+    <h2 id="refresh2">👆Click this all button</h2>
+    <h2 id="refresh">Or Search something</h2>
+    <div onclick="hide()" id="container">
+      
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>

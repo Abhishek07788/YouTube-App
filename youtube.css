@@ -1,0 +1,246 @@
+
+body{
+background-color:#181818;
+}
+
+/* --------------------navbar--------------------------------------- */
+#navbar{
+background-color: #202020;
+width: 99%;
+margin: auto;
+height: 70px;
+border-radius: 10px;
+position: fixed;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+margin-top: -9px;
+}
+#navbar>img{
+height: 40px;
+}
+
+#logo{
+float: left;
+margin-right: 20px;
+border-radius: 50px;
+margin-top: 15px;
+cursor: pointer;
+margin-right: 20%;
+}
+#input{
+float: left;
+margin-right: 20px;
+margin-top: 8px;
+width: 26%;
+height: 34px;
+background-color: #121212;
+border-color: gray;
+margin-right: 0px;
+margin-top: 19px;
+color: white;
+font-size: 18px;
+border-radius: 3px;
+}
+#searchicon{
+float: left;
+margin-right: 20px;
+height: 45px;
+width: 60px;
+margin-top: 15px;
+margin-right: 10px;
+cursor: pointer;
+}
+#personIcon{
+margin-right: 20px;
+border-radius: 50px;
+margin-top: 15px;
+float: left;
+cursor: pointer;
+}
+#mic{
+float: left;
+margin-right: 20px;
+border-radius: 50px;
+margin-top: 15px;
+cursor: pointer;
+}
+#camera{
+float: left;
+margin-right: 20px;
+border-radius: 50px;
+margin-top: 18px;
+margin-left: 170px;
+cursor: pointer;
+
+}
+#grid{
+margin-right: 20px;
+border-radius: 50px;
+margin-top: 13px;
+float: left;
+width: 50px;
+cursor: pointer;
+}   
+#notification{
+float: left;
+margin-right:5px;
+border-radius: 50px;
+margin-top: 15px;
+cursor: pointer;
+}
+#line{
+float: left;
+margin-right: 10px;
+border-radius: 50px;
+margin-top: 18px;
+cursor: pointer;
+margin-left: 20px;
+}
+
+/* -------------------------------------------- */
+
+
+/* -----------------------home--------------- */
+#play_video{
+width: 1050px;
+margin-left: 30px;
+height: 510px;
+margin-top: 110px;
+}
+#details{
+float: left;
+width: 1050px;
+margin-left: 30px;
+height:170px;
+}
+#details>h2{
+color: white;
+font-family:"YouTube Sans", Roboto, sans-serif;
+margin-top: 5px;
+margin-bottom: 7px;
+}
+#details>h3{
+margin-top: 0px;
+color: white;
+font-family:"YouTube Sans", Roboto, sans-serif;
+margin-bottom: 4px;
+}
+#details>p{
+margin-top: 0px;
+color: rgb(188, 183, 183);
+font-family:"YouTube Sans", Roboto, sans-serif;
+}
+#channel{
+border: 0.4px solid rgb(92, 92, 91);
+width: 40%;
+height: 40px;
+border-radius:3px
+}
+#channel>h3{
+color: white;
+font-family:"YouTube Sans", Roboto, sans-serif;
+float: left;
+margin-top: 10px;
+cursor: pointer;
+margin-left: 20px;
+}
+#channel>img{
+width: 120px;
+float: right;
+margin-top: 4px;
+margin-right: 20px;
+cursor: pointer;
+}
+
+
+
+
+/* ----------------------right-------------- */
+
+#container {
+display: grid;
+gap: 30px;
+margin: auto;
+width:26%;
+float: right;
+height:1500px;
+margin-right:-4px;
+margin-top: 110px;
+}
+#rightdiv{
+display:flex;
+cursor: pointer;
+margin-top: 0px;
+margin-bottom: -25px;
+}
+#rightdiv>img{
+width: 150px;
+height: 100px;
+}
+#rightdiv>div>p:first-child{
+color: white;
+font-family:"YouTube Sans", Roboto, sans-serif;
+margin-top: 0px;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 15px;
+margin-bottom: 1px;
+}
+#rightdiv>div>p:last-child{
+color: rgb(161, 160, 160);
+margin-top: 5px;
+font-family:"YouTube Sans", Roboto, sans-serif;
+font-size: 14px;
+margin-left: 10px;
+}
+
+/* -------------------------------------- */
+
+
+
+#container2 {
+gap: 30px;
+margin: auto;
+float: left;
+width: 1050px;
+margin-left: 30px;
+height: 510px;
+margin-top: 40px;
+
+}
+
+#bottumdiv{
+width: 100%;
+cursor: pointer;
+}
+#bottumdiv>img{
+width: 100%;
+height: 540px
+}
+#bottumdiv>h2{
+width: 100%;
+font-family:"YouTube Sans", Roboto, sans-serif;
+}
+#bottumdiv>h3{
+width: 100%;
+font-family:"YouTube Sans", Roboto, sans-serif;
+color: rgb(185, 178, 178);
+}
+
+
+/* ---------------------------------------------- */
+
+@media all and (min-width:200px) and (max-width:1400px){
+
+#container {
+position:absolute;
+display: none;
+}
+#camera{
+position:absolute;
+display: none;
+}
+#grid{
+position:absolute;
+display: none;
+}
+}

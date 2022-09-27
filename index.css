@@ -1,0 +1,260 @@
+
+body{
+  background-color:#181818;
+}
+
+/* --------------------navbar--------------------------------------- */
+#navbar{
+  background-color: #202020;
+  width: 99%;
+  margin: auto;
+  height: 73px;
+  border-radius: 10px;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: -9px;
+}
+#navbar>img{
+  height: 40px;
+}
+
+#logo{
+  float: left;
+  margin-right: 20px;
+  border-radius: 50px;
+  margin-top: 15px;
+  cursor: pointer;
+  margin-right: 20%;
+  margin-left: 68px;
+}
+#input{
+  float: left;
+  margin-right: 20px;
+  margin-top: 9px;
+  width: 26%;
+  height: 34px;
+  background-color: #121212;
+  border-color: gray;
+  margin-right: 0px;
+  margin-top: 19px;
+  color: white;
+  font-size: 18px;
+  border-radius: 3px;
+}
+#searchicon{
+  float: left;
+  margin-right: 20px;
+  height: 45px;
+  width: 60px;
+  margin-top: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+#personIcon{
+  margin-right: 20px;
+  border-radius: 50px;
+  margin-top: 15px;
+  float: left;
+  cursor: pointer;
+}
+#mic{
+  float: left;
+  margin-right: 10px;
+  border-radius: 50px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+#camera{
+  float: left;
+  margin-right: 20px;
+  border-radius: 50px;
+  margin-top: 18px;
+  margin-left: 170px;
+  cursor: pointer;
+  
+}
+#notification{
+  float: left;
+  margin-right: 10px;
+  border-radius: 50px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+/* -------------------------------------------- */
+
+
+
+/* ------------------------------------left side-------------------- */
+
+#leftSide{
+  background-color: #202020;
+  height: 750px;
+  width: 70px;
+  margin-left: -6px;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: -10px;
+}
+#leftSide>img{
+  width: 70px;
+  cursor: pointer;
+}
+#leftSide>img:first-child{
+  width: 48px;
+  cursor: pointer;
+}
+#line{
+  float: left;
+  margin-right: 20px;
+  border-radius: 50px;
+  margin-top: 14px;
+  cursor: pointer;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
+
+/* ------------------------------ */
+
+
+
+/* -----------------------home--------------- */
+#searchTagline{
+border: 0.4px solid rgb(90, 87, 87);
+display: grid;
+grid-template-columns: repeat(14, 1fr);
+gap: 10px;
+width:96.5%;
+float: left;
+margin-left: 60px;
+height: 50px;
+margin-top: 65px;
+display: fixed;
+}
+#searchTagline>p{
+color: white;
+font-family: Roboto, Arial, sans-serif;
+background-color:#373737;
+gap: 0px;
+padding: 6px;
+text-align: center;
+margin-top: 8px;
+border-radius: 20px;
+height: 20px;
+}
+#searchTagline>p:hover{
+cursor: pointer;
+background-color:#524f4f;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  width:95.5%;
+  float: right;
+  margin-top: 10px;
+}
+#container>div>h3{
+  color: white;
+  margin-left: 12px;
+  font-family:"YouTube Sans", Roboto, sans-serif;
+}
+#container>div>p{
+  color: rgb(133, 128, 128);
+  margin-left: 12px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 4px;
+  font-family:"YouTube Sans", Roboto, sans-serif;
+}
+
+
+/* --------------------------------------------------- */
+
+@media all and (min-width:200px) and (max-width:1400px){
+  
+  #logo{
+    margin-right: 30px;
+  }
+  #input{
+    margin-left:3.5%;
+    width:20%;
+
+  }
+  #mic{
+    margin-right: 10px;
+  }
+  #camera{
+    margin-left: 20px;
+  }
+  #container {
+   
+    grid-template-columns: repeat(3, 1fr);
+   
+  }
+  }
+
+
+     /* ----------------filter------------------ */
+
+#filter{
+  margin-right: 20px;
+  border-radius: 50px;
+  margin-top: 16px;
+  float: left;
+  color: white;
+  background-color: #121212;
+  padding: 10px;
+  text-align: center;
+  width: 60px;
+  cursor: pointer;
+} 
+
+  #fltr{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 140px;
+    position:fixed;
+    margin-left: 83.3%;
+    margin-top: 3.2%;
+    padding-bottom: 4px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #888484;
+    display: none;
+    
+  }
+
+  #fltr>p{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family:"YouTube Sans", Roboto, sans-serif;
+  }
+  #fltr>p:hover{
+    background-color: #373737;
+  }
+
+  #refresh2{
+    position:absolute;
+    color: white;
+    font-size: 30px;
+    left: 7%;
+    top: 16%;
+    text-align: center;
+    display: block;
+
+  }
+  #refresh{
+    position:absolute;
+    color: white;
+    font-size: 100px;
+    left: 23%;
+    top: 30%;
+    text-align: center;
+    display: block;
+
+  }
