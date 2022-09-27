@@ -129,7 +129,13 @@ data.forEach((el) => {
       let imgbottum = document.createElement("img");
       imgbottum.setAttribute("id","rIMG")
       imgbottum.src = el.snippet.thumbnails.high.url;
-     
+      let imgLogo =document.createElement("img");
+      imgLogo.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRhlb5IzhQeReQ8A8tKG_XawIRf6QorSjgyCqPTizlIVKEkpKcbcNjKC5i5J71of-tXzM&usqp=CAU"
+      imgLogo.setAttribute("id","playLogo")
+      imgLogo.style.width="70px"
+      imgLogo.style.height="70px"
+
+      
 
       let h3bottum = document.createElement("h2");
       h3bottum.innerText = el.snippet.title;
@@ -138,7 +144,7 @@ data.forEach((el) => {
       let pbottum=document.createElement("h3");
       pbottum.innerText=el.snippet.channelTitle;
       
-      bottumdiv.append(imgbottum,h3bottum,pbottum);
+      bottumdiv.append(imgbottum,h3bottum,pbottum,imgLogo);
       container2.append(bottumdiv);
     });
   };
