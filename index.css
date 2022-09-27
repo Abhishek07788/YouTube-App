@@ -237,23 +237,12 @@ background-color:#524f4f;
   #fltr>p:hover{
     background-color: #373737;
   }
-
-  #refresh2{
-    position:absolute;
-    color: white;
-    font-size: 30px;
-    left: 7%;
-    top: 16%;
-    text-align: center;
-    display: block;
-
-  }
   #refresh{
     position:absolute;
     color: white;
-    font-size: 100px;
-    left: 23%;
-    top: 30%;
+    font-size: 70px;
+    left: 5%;
+    top: 10%;
     text-align: center;
     display: block;
 
