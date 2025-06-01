@@ -36,13 +36,6 @@ A simple and responsive **YouTube clone** built for practicing API integration, 
    git clone https://github.com/Abhishek07788/YouTube-App.git
    ```
 
-2. Navigate to project folder  
-   ```bash
-   cd YouTube-App
-   ```
-
----
-
 ## 👨‍💻 Author
 
 **Abhishek Solanki**  
