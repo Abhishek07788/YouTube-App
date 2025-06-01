@@ -6,7 +6,8 @@ A simple and responsive **YouTube clone** built for practicing API integration, 
 
 ## 🔧 Tech Stack
 
-- **React.js**
+- **HTML**
+- **JAVASCRIPT**
 - **CSS**
 - **Axios**
 - **YouTube Data API v3**
