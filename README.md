@@ -41,16 +41,6 @@ A simple and responsive **YouTube clone** built for practicing API integration, 
    cd YouTube-App
    ```
 
-3. Install dependencies  
-   ```bash
-   npm install
-   ```
-
-4. Run the app  
-   ```bash
-   npm start
-   ```
-
 ---
 
 ## 👨‍💻 Author
